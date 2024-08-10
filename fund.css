@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.navigation {
+    display: flex;
+    background-color: gray;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav-title h1 {
+    text-align: center;
+    color: black;
+}
+
+.menus ul li {
+    list-style-type: none;
+    display: inline-block;
+    
+   
+}
+.menus ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 15px;
+    color: white;
+}
+.logo img {
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+}
+
+.rupee-text {
+    margin: 30px 0px;
+}
+
+.rupee-text h1 {
+    color: darkcyan;
+    text-align: center;
+    font-size: 50px;
+}
+
+.rupee-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.rup-btn {
+    display: block;
+    background-color: darkcyan;
+    margin: 0px auto ;
+    border: none;
+    padding: 10px 50px;
+    color: aliceblue;
+    border-radius: 30px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: gray;
+    margin-top: 220px;
+    
+}
+
+.contact-details h1 {
+    margin-bottom: 15px;
+}
+
+.contact-details h4 {
+    font-style: oblique;
+}
+
+.contact-details h2 {
+    margin: 15px 0px;
+}
+
+.contact-details p {
+    line-height: 1.6;
+}
